@@ -13,7 +13,7 @@ body{
 .container {
     display: flex;
     flex-wrap: wrap; 
-    border: 1px solid #76ABAE;   
+    border: 0.2px solid #76ABAE;   
     margin: 100px auto;
 }
 

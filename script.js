@@ -28,3 +28,11 @@ function createGrid() {
 }
 
 createGrid();
+
+//simple black mouse over effect 
+let cells = document.querySelectorAll('.cell');
+cells.forEach(function(cell) {
+    cell.addEventListener("mouseover", function() {
+        cell.style.backgroundColor = 'black';
+    });
+});
